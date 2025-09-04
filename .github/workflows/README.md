@@ -2,7 +2,7 @@
 
 1. Go to repository **Settings** > **Pages**
 
-   - Source: Deploy from a branch
+   - Source: GitHub Actions
    - Branch: master > Save
 
 2. Make changes to your `vite.config.js` file. It should look similar to this:
