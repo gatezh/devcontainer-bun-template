@@ -1,8 +1,8 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/marcosgomesneto/bun-devcontainers/tree/main/src/basic-bun
+// For format details, see https://aka.ms/devcontainer.json
+// Image source: https://github.com/gatezh/devcontainer-images
 {
   "name": "bun-app",
-  "dockerFile": "Dockerfile",
+  "image": "ghcr.io/gatezh/devcontainer-bun:latest",
 
   // Keep node_modules out of a host machine
   "mounts": [

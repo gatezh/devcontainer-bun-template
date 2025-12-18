@@ -1,12 +1,8 @@
 # Devcontainer bun template
 
-Minimal template repo containing only a `.devcontainer` that boots an **Alpine** image with **bun** installed.
-`BUN_VERSION` is set in the Dockerfile as:
+Minimal template repo containing only a `.devcontainer` that uses a pre-built **Alpine** image with **bun** installed.
 
-```
-ARG BUN_VERSION=1.2.20
-```
-
+Uses image from [gatezh/devcontainer-images](https://github.com/gatezh/devcontainer-images).
 
 
 ## Purpose
@@ -14,18 +10,11 @@ ARG BUN_VERSION=1.2.20
 Starter container for creating "what used to be Node" apps (React, Vite, Next, etc.) — safe, fast, minimal, bun-first.
 
 
-
 ## Quick start
 
 1. Clone this repo.
 2. Open in VS Code and choose **Reopen in Container** (or use *Remote - Containers*).
-3. The container installs bun (version defined by `ARG BUN_VERSION`) and the listed extensions.
-
-
-
-## Change bun version
-
-Edit the Dockerfile `ARG BUN_VERSION=...` and rebuild the container.
+3. The container pulls the pre-built image and installs the listed extensions.
 
 
 
